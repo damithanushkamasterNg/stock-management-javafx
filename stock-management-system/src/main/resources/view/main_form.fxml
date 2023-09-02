@@ -27,13 +27,6 @@
          </font>
       </Button>
       <Button layoutX="450.0" layoutY="89.0" mnemonicParsing="false" onAction="#clickOnOrderManage" prefHeight="40.0" prefWidth="126.0" text="Orders">
-         <graphic>
-            <ImageView fitHeight="40.0" fitWidth="40.0">
-               <image>
-                  <Image  url="file:/D:/MyProjects/Attachments/po/images - Copy (2)" /> <!-- Replace with the path to your image file -->
-               </image>
-            </ImageView>
-         </graphic>
          <font>
             <Font size="18.0" />
          </font>
