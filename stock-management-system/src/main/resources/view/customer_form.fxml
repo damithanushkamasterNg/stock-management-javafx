@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.CustomerFormController">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="180.0" layoutY="14.0" prefHeight="63.0" prefWidth="240.0" text="Customer Manage Form">
