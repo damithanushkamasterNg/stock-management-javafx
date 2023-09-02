@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.CustomerFormController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="180.0" layoutY="14.0" prefHeight="63.0" prefWidth="240.0" text="Customer Manage Form">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="26.0" layoutY="115.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer ID" />
+      <TextField layoutX="338.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Phone Number" />
+      <TextField layoutX="34.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Address" />
+      <TextField layoutX="338.0" layoutY="115.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Name" />
+      <Button layoutX="367.0" layoutY="287.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="190.0" text="Save" />
+   </children>
+</AnchorPane>
