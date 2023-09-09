@@ -161,4 +161,10 @@ public class ItemFormController {
         this.descriptionid.setText(description);
         this.qtyId.setText(qty);
     }
+
+    //cache initial status of the form
+
+    public void initialize(){
+        System.out.println("initialized the item form");
+    }
 }
