@@ -13,10 +13,13 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="26.0" layoutY="115.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer ID" />
-      <TextField layoutX="338.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Phone Number" />
-      <TextField layoutX="34.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Address" />
-      <TextField layoutX="338.0" layoutY="115.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Name" />
-      <Button layoutX="367.0" layoutY="287.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="190.0" text="Save" />
+      <TextField fx:id="customerId" layoutX="26.0" layoutY="115.0" onMousePressed="#serchCustomer" prefHeight="26.0" prefWidth="220.0" promptText="Customer ID" />
+      <TextField fx:id="phnId" layoutX="338.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Phone Number" />
+      <TextField fx:id="customerAddressId" layoutX="34.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Address" />
+      <TextField fx:id="customerNameId" layoutX="338.0" layoutY="115.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Name" />
+      <Button layoutX="494.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickOnSaveCustomer" prefHeight="26.0" prefWidth="92.0" text="Save" />
+      <Button layoutX="380.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickonReset" prefHeight="13.0" prefWidth="92.0" text="Reset" />
+      <Button layoutX="272.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickOnUpdate" prefHeight="3.0" prefWidth="92.0" text="update" />
+      <Button layoutX="162.0" layoutY="245.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="3.0" prefWidth="92.0" text="delete" />
    </children>
 </AnchorPane>
