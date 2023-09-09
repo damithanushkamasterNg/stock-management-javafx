@@ -17,9 +17,9 @@
       <TextField fx:id="phnId" layoutX="338.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Phone Number" />
       <TextField fx:id="customerAddressId" layoutX="34.0" layoutY="200.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Address" />
       <TextField fx:id="customerNameId" layoutX="338.0" layoutY="115.0" prefHeight="26.0" prefWidth="220.0" promptText="Customer Name" />
-      <Button layoutX="494.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickOnSaveCustomer" prefHeight="26.0" prefWidth="92.0" text="Save" />
-      <Button layoutX="380.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickonReset" prefHeight="13.0" prefWidth="92.0" text="Reset" />
-      <Button layoutX="272.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickOnUpdate" prefHeight="3.0" prefWidth="92.0" text="update" />
-      <Button layoutX="162.0" layoutY="245.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="3.0" prefWidth="92.0" text="delete" />
+      <Button layoutX="494.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickOnSaveCustomer" prefHeight="26.0" prefWidth="92.0" style="-fx-background-color: silver;" text="Save" />
+      <Button layoutX="380.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickonReset" prefHeight="13.0" prefWidth="92.0" style="-fx-background-color: yellow;" text="Reset" />
+      <Button layoutX="272.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickOnUpdate" prefHeight="3.0" prefWidth="92.0" style="-fx-background-color: green;" text="update" />
+      <Button layoutX="162.0" layoutY="245.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="3.0" prefWidth="92.0" style="-fx-background-color: red;" text="delete" />
    </children>
 </AnchorPane>
