@@ -11,12 +11,12 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.example.db.DbConnection;
+import org.example.dto.Item;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ItemFormController {
     public AnchorPane itemFormId;
@@ -162,9 +162,27 @@ public class ItemFormController {
         this.qtyId.setText(qty);
     }
 
-    //cache initial status of the form
+    //catch initial status of the form
 
     public void initialize(){
-        System.out.println("initialized the item form");
+//       loadAllItems();
+    }
+
+    private void loadAllItems() throws SQLException {
+        Connection connection = DbConnection.getInstance().getConnection();
+
+        String sql = "Select * from item";
+        Statement statement = connection.createStatement();
+
+        ResultSet resultSet = statement.executeQuery(sql);
+
+        List<Item> itemList = new ArrayList<>();
+
+        while (resultSet.next()){
+            String code = resultSet.getString(1);
+            String description = resultSet.getString(2);
+
+        }
+
     }
 }
